@@ -1,0 +1,18 @@
+<div class="jr-frame jr-master w-100">
+  <!--TODO: Add some kind of header component-->
+  <a routerLink="services">Services</a>
+  <a routerLink="actions">Actions</a>
+  <a routerLink="actions/quote">Request a Quote</a>
+  <!--TODO: Add some kind of navigation component-->
+  <div class="jr-frame jr-card h-100">
+    <main class="jr-content-wrapper">
+      <section [@routeAnimations]="o && o.activatedRouteData && o.activatedRouteData['animation']">
+        <router-outlet #o="outlet"></router-outlet>
+      </section>
+    </main>
+  </div>
+  <!--TODO: Some kind of footer component-->
+</div>
+<ng-template #errorTemplate let-error>
+  {{error}}
+</ng-template>

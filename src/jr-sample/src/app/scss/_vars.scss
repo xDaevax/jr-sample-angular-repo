@@ -1,0 +1,66 @@
+/* VARIABLES */
+/* global font variables */
+$baseFamily: "Verdana", Tahoma, Geneva, Verdana, sans-serif;
+
+$settings: (
+  typography: (
+    base: (
+      "family": $baseFamily,
+      "size": 12px,
+    ),
+    title: (
+      "size": 22px,
+    ),
+    heading: (
+      "size": 16px,
+    ),
+  ),
+);
+
+$colors: (
+  background: (
+    "card": rgb(230, 230, 230),
+    "base": rgb(201, 201, 201),
+    "header": rgb(0, 40, 85),
+    "white": rgb(255, 255, 255),
+    'toast-info': rgb(0, 146, 192),
+    'toast-warn': rgb(212, 160, 0),
+    'toast-error': rgb(152, 0, 0),
+    'toast-success': rgb(0, 152, 0),
+    'dark-content': rgb(60, 60, 60),
+    'active-step': rgb(29, 202, 148),
+    'button-primary': rgb(0, 47, 85),
+    'button-primary-hover': rgb(0, 102, 165),
+    'button-open-start': rgb(78, 156, 0),
+    'button-open-start-hover': rgb(120, 191, 48),
+    'button-close': rgb(192, 0, 0),
+    'button-close-hover': rgb(220, 30, 30)
+    ),
+  text: (
+    "default": rgb(60, 60, 60),
+    "emphasized": rgb(23, 23, 23),
+    "deemphasized": rgb(120, 120, 120),
+    "readonly": rgb(150, 150, 150),
+    "editable": rgb(120, 120, 120),
+    "subheader": rgb(230, 230, 230),
+    "white": rgb(255, 255, 255),
+    "kraton-green": rgb(132, 189, 51)
+    ),
+  categoryBackgrounds: (
+    0: rgb(217, 217, 217),
+    1: rgb(226, 239, 218),
+    2: rgb(253, 234, 218),
+    3: rgb(248, 221, 251),
+    4: rgb(255, 217, 217),
+    5: rgb(217, 255, 255),
+    6: rgb(220, 224, 252),
+    7: rgb(255, 255, 217),
+    8: rgb(209, 255, 203),
+    9: rgb(224, 232, 248),
+    10: rgb(245, 245, 227),
+    11: rgb(241, 231, 231),
+    12: rgb(231, 241, 231),
+    13: rgb(234, 225, 247),
+    14: rgb(225, 243, 247),
+  )
+)
